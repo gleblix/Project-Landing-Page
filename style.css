@@ -45,8 +45,26 @@ body {
 }
 
 .section-three {
-    flex: 1;
+    flex: 1 1 0;
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 150px 0px 150px;
+    gap: 16px;
+
+}
+
+.section-three .quote {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.section-three .author {
+    align-self: flex-end;
+    padding-right: 75px;
+    font-size: 24px;
 }
 
 .section-four {
